@@ -1,0 +1,402 @@
+@import "_ui_kit.sass"
+
+/////////////////////////////////////
+// common style
+/////////////////////////////////////
+
+body *
+    font-family: 'Quicksand'
+    font-style: normal
+    font-weight: 300
+
+
+nav
+    height: 95px
+
+%margin_auto
+    margin: 0 auto
+
+.middle_wrapper
+    @extend %margin_auto
+    width: 1380px
+    background-color: $bg_gray
+    min-height: 100vh
+
+.relative
+    position: relative
+
+.hr_style
+    width: 1380px
+    border: 2.5px solid $white
+
+.container
+    height: 5880px
+    background-color: tomato
+
+hr
+    margin-top: 0
+    margin-bottom: 0 
+
+/////////////////////////////////////
+// nav style
+/////////////////////////////////////
+
+.link_home
+    display: inline-block
+    margin-left: 90px
+    margin-top: 37px
+    img
+        vertical-align: top
+
+.link_home_position
+    position: absolute
+    top: 0
+    left: 0
+
+.lang_ko
+    position: absolute
+    top: 37px
+    right: 60px
+    a
+        padding-top: 20px
+        padding-bottom: 20px
+        font-size: 14px
+        text-decoration: none
+        @extend %quick_medium
+        color: $txt_gray
+        &:visited
+            color: $txt_gray
+        &:hover
+            color: $yellow
+
+
+.lang_en
+    position: absolute
+    top: 37px
+    right: 0
+    
+    a
+        padding-top: 20px
+        padding-bottom: 20px
+        text-decoration: none
+        font-size: 14px
+        @extend %quick_medium
+        color: $white
+        &:visited
+            color: $white
+        &:hover
+            color: $yellow
+
+.borderline
+    position: absolute
+    top: 44.5px
+    right: 43px
+    width: 1px
+    height: 11px
+    background-color: $border_gray
+
+/////////////////////////////////////
+// header style
+/////////////////////////////////////
+.header_container
+    height: 740px
+
+.header_style
+    color: $white
+    margin-left: 90px
+    margin-top: 78px
+    line-height: 70px
+
+.header_subcopy
+    color: $white
+    margin-left: 90px
+    margin-top: 40px
+
+.header_diagram
+    margin-top: 70px
+    margin-left: 90px
+    background-image: url('../image/diagram.png')
+    background-repeat: no-repeat
+    background-size: cover
+    width: 1200px
+    height: 300px
+
+/////////////////////////////////////
+// kakey style - 01
+/////////////////////////////////////
+
+.numbering
+    position: absolute
+    top: 0
+    left: 0
+    padding-top: 35px
+    color: $white
+    font-weight: 300
+    display: inline-block
+
+.kakey_01_title
+    position: absolute
+    top: 0
+    left: 142px
+    padding-top: 35px
+    color: $white
+
+.kakey_01_headcopy
+    position: absolute
+    top: 0
+    left: 314px
+    line-height: 40px
+    color: $white
+    padding-top: 26px
+
+.kakey_01_body_01
+    position: absolute
+    top: 143px
+    left: 314px
+    line-height: 25px
+    color: $white
+
+.kakey_01_body_02
+    position: absolute
+    top: 255px
+    left: 314px
+    color: $white
+
+.kakey_01_size
+    height: 411px
+    background-color: $bg_gray
+
+.kakey_google_link
+    vertical-align: top
+    display: inline-block
+    img
+        vertical-align: top
+
+.kakey_google_position
+    position: absolute
+    top: 334px
+    left: 990px
+
+.kakey_apple_position
+    position: absolute
+    top: 334px
+    left: 1147px
+
+.kakey_logo_position
+    position: absolute
+    top: 35px
+    right: 0px
+
+.aj_logo_position
+    position: absolute
+    top: 120px
+    right: 0px
+    border-top: 2px solid $border_gray
+    padding-top: 24px
+
+/////////////////////////////////////
+// kakey style - 02
+/////////////////////////////////////
+
+.kakey_02_size
+    height: 420px
+
+.kakey_02_left
+    position: absolute
+    width: 240px
+    height: 420px
+    top: 0
+    left: 0
+    box-sizing: border-box
+    border-top: 2px solid $border_gray
+
+.kakey_02_middle
+    position: absolute
+    width: 300px
+    height: 420px
+    top: 0
+    left: 315px
+    box-sizing: border-box
+    border-top: 2px solid $border_gray
+
+
+.kakey_02_middle_2
+    position: absolute
+    width: 300px
+    height: 420px
+    top: 0
+    left: 615px
+    box-sizing: border-box
+    border-top: 2px solid $border_gray
+
+
+.kakey_02_right
+    position: absolute
+    width: 390px
+    height: 420px
+    top: 0
+    right: 0
+    border-top: 2px solid $border_gray
+
+
+.kakey_02_title
+    padding-top: 35px
+    color: $white
+
+.kakey_cloud_position
+    padding-top: 35px
+
+.kakey_cloud_content_1
+    padding-top: 44px
+    padding-bottom: 24px
+
+.kakey_cloud_content_2
+    padding-top: 37px
+    padding-bottom: 24px
+
+.kakey_cloud_content_3
+    padding-top: 134px
+    padding-bottom: 24px
+
+
+/////////////////////////////////////
+// neivee title_style title
+/////////////////////////////////////
+
+.neivee_title_size
+
+
+.neivee_title_size
+    height: 50px
+
+.numbering_2
+    position: absolute
+    top: 0
+    left: 0
+    padding-top: 14px
+    color: $white
+    font-weight: 300
+    display: inline-block
+
+
+.neivee_00_title
+    position: absolute
+    top: 0
+    left: 101px
+    padding-top: 16px
+    color: $white
+
+.neivee_00_subtitle
+    position: absolute
+    top: 0
+    right: 0
+    text-align: right
+    padding-top: 16px
+
+
+/////////////////////////////////////
+// neivee 01 
+/////////////////////////////////////
+
+.neivee_01_size
+    height: 600px
+
+.neivee_01_left
+    background-image: url('../image/neivee_01_left.png')
+    background-repeat: no-repeat
+    background-size: cover
+    width: 240px
+    height: 600px
+    position: absolute
+    top: 0
+    left: 0
+
+.neivee_01_right
+    background-image: url('../image/neivee_01_right.png')
+    background-repeat: no-repeat
+    background-size: cover
+    width: 240px
+    height: 600px
+    position: absolute
+    top: 0
+    right: 0
+
+.neivee_01_middle
+    background-image: url('../image/neivee_01_middle.png')
+    background-repeat: no-repeat
+    background-size: cover
+    width: 900px
+    height: 600px
+    position: absolute
+    top: 0
+    left: 240px
+
+.neivee_01_content
+    padding-top: 49px
+    padding-left: 74px
+    line-height: 37px
+
+
+/////////////////////////////////////
+// neivee 02
+/////////////////////////////////////
+
+.neivee_02_size
+    margin-top: 1px
+    background-image: url('../image/neivee_02_bg.png')
+    background-repeat: no-repeat
+    background-size: cover
+    width: auto
+    height: 600px
+
+.neivee_02_title
+    position: absolute
+    line-height: 37px
+    padding-left: 314px
+    padding-top: 46.5px
+
+.neivee_02_area_01
+    position: absolute
+    top: 0
+    left: 315px
+    width: 375px
+    height: 369px
+
+.neivee_02_area_02
+    position: absolute
+    top: 0
+    left: 690px
+    width: 375px
+    height: 369px
+
+.neivee_02_area_03
+    position: absolute
+    top: 369px
+    left: 315px
+    width: 375px
+    height: 369px
+    padding-top: 31.5px
+
+.neivee_02_area_04
+    position: absolute
+    top: 369px
+    left: 690px
+    width: 375px
+    height: 369px
+    padding-top: 31.5px
+
+.neivee_02_subtitle_01
+    padding-top: 182px
+    line-height: 19px
+
+.neivee_02_subtitle_02
+    padding-top: 95.5px
+
+.neivee_02_body_01
+    padding-top: 38.5px
+
+
+.neivee_02_body_02
+    padding-top: 20px
+
+
